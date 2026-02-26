@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
-import Logo from "../pics/LogoWolf.png";
+// import Logo from "../pics/LogoWolf.png";
 
 const navItems = ["Home", "About", "Services", "Reviews", "Contact"];
 
@@ -47,14 +47,14 @@ const Navbar = () => {
           }}
         >
           <Box
-            component="img"
-            src={Logo}
-            alt="WolfDen Logo"
-            sx={{
-              height: 50,
-              width: "auto",
-              objectFit: "contain",
-            }}
+            // component="img"
+            // src={Logo}
+            // alt="WolfDen Logo"
+            // sx={{
+            //   height: 50,
+            //   width: "auto",
+            //   objectFit: "contain",
+            // }}
           />
 
           <Typography
