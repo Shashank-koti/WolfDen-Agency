@@ -14,8 +14,9 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
+import Logo from "../pics/logoWolf.png";
 
-const navItems = ["Home", "About", "Services", "Reviews", "Works"];
+const navItems = ["Home", "About", "Services", "Reviews", "Contact"];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -36,18 +37,39 @@ const Navbar = () => {
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/* Logo */}
-        <Typography
-          variant="h6"
+        <Box
+          component="a"
+          href="/home"
           sx={{
-            fontWeight: 700,
-            letterSpacing: 1,
-            ml: "1rem",
-            color: "#4f8cff",
-            cursor: "pointer",
+            textDecoration: "none",
+            display: "flex", // ✅ makes logo & text in one line
+            alignItems: "center", // ✅ vertical center
           }}
         >
-          WolfDen
-        </Typography>
+          <Box
+            component="img"
+            src={Logo}
+            alt="WolfDen Logo"
+            sx={{
+              height: 50,
+              width: "auto",
+              objectFit: "contain",
+            }}
+          />
+
+          <Typography
+            variant="h6"
+            sx={{
+              fontWeight: 700,
+              letterSpacing: 1,
+              // ml: 1.5,
+              color: "#4f8cff",
+              cursor: "pointer",
+            }}
+          >
+            WolfDen
+          </Typography>
+        </Box>
 
         {/* Desktop Menu */}
         {!isMobile && (

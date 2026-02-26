@@ -34,6 +34,7 @@ export default function Footer() {
       sx={{
         pt: 10,
         pb: 5,
+        mt:8
         // background: "rgba(255,255,255,0.02)",
       }}
     >
