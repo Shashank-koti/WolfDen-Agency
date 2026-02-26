@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
-import Logo from "../pics/logoWolf.png";
+import Logo from "../pics/LogoWolf.png";
 
 const navItems = ["Home", "About", "Services", "Reviews", "Contact"];
 
