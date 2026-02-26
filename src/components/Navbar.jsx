@@ -32,7 +32,6 @@ const Navbar = () => {
       sx={{
         backgroundColor: "transparent",
         mt: "8px",
-        backdropFilter: "blur(14px)",
       }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
