@@ -38,7 +38,7 @@ const Navbar = () => {
         {/* Logo */}
         <Box
           component="a"
-          href="/home"
+          href="/"
           sx={{
             textDecoration: "none",
             display: "flex", // ✅ makes logo & text in one line
@@ -110,23 +110,25 @@ const Navbar = () => {
         {/* CTA + Mobile Menu */}
         <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           {!isMobile && (
-            <Button
-              sx={{
-                textTransform: "none",
-                px: 3,
-                py: 1,
-                borderRadius: "999px",
-                background: "linear-gradient(135deg, #4f8cff, #6d5dfc)",
-                color: "#fff",
-                fontWeight: 600,
-                boxShadow: "0 0 18px rgba(79,140,255,0.6)",
-                "&:hover": {
-                  background: "linear-gradient(135deg, #6d5dfc, #4f8cff)",
-                },
-              }}
-            >
-              Talk
-            </Button>
+            <a href="https://wa.me/919701670629" target="_blank">
+              <Button
+                sx={{
+                  textTransform: "none",
+                  px: 3,
+                  py: 1,
+                  borderRadius: "999px",
+                  background: "linear-gradient(135deg, #4f8cff, #6d5dfc)",
+                  color: "#fff",
+                  fontWeight: 600,
+                  boxShadow: "0 0 18px rgba(79,140,255,0.6)",
+                  "&:hover": {
+                    background: "linear-gradient(135deg, #6d5dfc, #4f8cff)",
+                  },
+                }}
+              >
+                Talk
+              </Button>
+            </a>
           )}
 
           {isMobile && (
@@ -153,23 +155,32 @@ const Navbar = () => {
           </Typography>
 
           <List>
-            {navItems.map((item) => (
-              <ListItem
-                button
-                key={item}
-                onClick={toggleDrawer}
-                sx={{
-                  borderRadius: 2,
-                  "&:hover": {
-                    background: "rgba(79,140,255,0.15)",
-                  },
-                }}
-              >
-                <ListItemText primary={item} />
-              </ListItem>
-            ))}
-          </List>
-
+  {navItems.map((item) => (
+    <a
+      key={item}
+      href={`#${item.toLowerCase()}`}
+      style={{
+        textDecoration: "none",
+        color: "inherit",
+        display: "block",
+      }}
+    >
+      <ListItem
+        button
+        onClick={toggleDrawer}
+        sx={{
+          borderRadius: 2,
+          textTransform: "none",
+          "&:hover": {
+            background: "rgba(79,140,255,0.15)",
+          },
+        }}
+      >
+        <ListItemText primary={item} />
+      </ListItem>
+    </a>
+  ))}
+</List>
           <Button
             fullWidth
             sx={{

@@ -9,7 +9,7 @@ import InsightsIcon from "@mui/icons-material/Insights";
 const benefits = [
   {
     title: "Complete Transparency",
-    desc: "We provide real-time reporting and clear insights so you always know your growth.",
+    desc: "We provide real time reporting and clear insights so you always know your growth.",
     icon: <SecurityIcon />,
   },
   {
@@ -18,7 +18,7 @@ const benefits = [
     icon: <SupportAgentIcon />,
   },
   {
-    title: "ROI-Focused Growth",
+    title: "ROI Focused Growth",
     desc: "We focus on results, not vanity metrics. Every strategy drives revenue.",
     icon: <AutoGraphIcon />,
   },
@@ -28,7 +28,7 @@ const benefits = [
     icon: <AccessTimeIcon />,
   },
   {
-    title: "Data-Driven Decisions",
+    title: "Data Driven Decisions",
     desc: "Smart analytics and insights power every growth decision.",
     icon: <InsightsIcon />,
   },
@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
             mb: 8,
           }}
         >
-          We go beyond services. We become your long-term growth partner and
+          We go beyond services. We become your long term growth partner and
           focus on building sustainable, scalable digital success.
         </Typography>
 

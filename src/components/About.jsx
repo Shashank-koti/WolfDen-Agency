@@ -48,7 +48,7 @@ const About = () => {
             mb: 8,
           }}
         >
-          WolfDen is a results-driven digital marketing agency focused on
+          WolfDen is a results driven digital marketing agency focused on
           helping startups, brands, and businesses.
         </Typography>
 

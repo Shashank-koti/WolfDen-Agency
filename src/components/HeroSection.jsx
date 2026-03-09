@@ -75,7 +75,7 @@ const HeroSection = () => {
                 lineHeight: 1.7,
               }}
             >
-              At WolfDen, we craft high-converting strategies using SEO, paid
+              At WolfDen, we craft high converting strategies using SEO, paid
               ads, social media, and growth marketing to help your brand
               dominate the digital world and generate consistent leads.
             </Typography>
@@ -95,6 +95,7 @@ const HeroSection = () => {
                   flexWrap: "wrap",
                 }}
               >
+                <a href="#contact">
                 <Button
                   sx={{
                     px: { xs: 3, md: 4 },
@@ -113,26 +114,8 @@ const HeroSection = () => {
                 >
                   Get Free Strategy
                 </Button>
-
-                <Button
-                  variant="outlined"
-                  sx={{
-                    px: { xs: 3, md: 4 },
-                    py: 1.3,
-                    borderRadius: "999px",
-                    textTransform: "none",
-                    fontSize: { xs: "0.9rem", md: "1rem" },
-                    color: "#d0d7ff",
-                    borderColor: "rgba(255,255,255,0.2)",
-                    "&:hover": {
-                      borderColor: "#4f8cff",
-                      color: "#4f8cff",
-                      background: "rgba(79,140,255,0.1)",
-                    },
-                  }}
-                >
-                  View Case Studies
-                </Button>
+                </a>
+               
               </Box>
             </motion.div>
           </Container>

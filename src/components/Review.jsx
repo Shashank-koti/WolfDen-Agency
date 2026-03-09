@@ -8,28 +8,28 @@ const testimonials = [
     role: "Startup Founder",
     review:
       "WolfDen transformed our digital presence. Their SEO and paid marketing strategy helped us generate 3x more leads in just 3 months.",
-    img: "https://i.pravatar.cc/150?img=1",
+    
   },
   {
     name: "Sandeep",
     role: "E-commerce Owner",
     review:
       "The team is highly professional. Our sales increased significantly after their social media and content strategy.",
-    img: "https://i.pravatar.cc/150?img=2",
+  
   },
   {
     name: "Praveen",
     role: "Tech Entrepreneur",
     review:
-      "From branding to web development, everything was top-notch. Highly recommended for any business looking to grow online.",
-    img: "https://i.pravatar.cc/150?img=3",
+      "From branding to web development, everything was top notch. Highly recommended for any business looking to grow online.",
+   
   },
   {
     name: "shashank",
     role: "Pet Shop Owner",
     review:
-      "Professional, creative, and detail-oriented. They truly understood our brand and translated it into a beautiful digital experience.",
-    img: "https://i.pravatar.cc/150?img=3"
+      "Professional, creative, and detail oriented. They truly understood our brand and translated it into a beautiful digital experience.",
+  
   },
 ];
 
@@ -108,7 +108,7 @@ const Review = () => {
             >
               {/* Stars */}
               <Box sx={{ display: "flex", mb: 2 }}>
-                {[1, 2, 3, 4, 5].map((_, i) => (
+                {[1, 2, 3, 4, 5/2].map((_, i) => (
                   <StarIcon key={i} sx={{ color: "#4f8cff" }} />
                 ))}
               </Box>

@@ -1,31 +1,25 @@
 import React from "react";
 import { Box, Typography, Link, Container } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import PhoneIcon from '@mui/icons-material/Phone';
+import MailIcon from '@mui/icons-material/OutgoingMail';
 
 export default function Footer() {
   const socials = [
     {
       name: "Instagram",
       icon: <InstagramIcon sx={{ mr: 1 }} />,
-      url: "https://instagram.com",
+      url: "https://www.instagram.com/wolfdenmarketingofficial",
     },
     {
-      name: "LinkedIn",
-      icon: <LinkedInIcon sx={{ mr: 1 }} />,
-      url: "https://linkedin.com",
+      name: "97016 70629",
+      icon: <PhoneIcon sx={{ mr: 1 }} />,
+      url: "tel:+919701670629",
     },
     {
-      name: "Twitter",
-      icon: <TwitterIcon sx={{ mr: 1 }} />,
-      url: "https://twitter.com",
-    },
-    {
-      name: "Facebook",
-      icon: <FacebookIcon sx={{ mr: 1 }} />,
-      url: "https://facebook.com",
+      name: "Gmail",
+      icon: <MailIcon sx={{ mr: 1 }} />,
+      url: "https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsmFRzGwzVFPZtNMJsWrNchDjtvtVnSVtWgsdDtrCCZXmdhbgCnMzJcxQkHccNSbLCVznBpB",
     },
   ];
 

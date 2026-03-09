@@ -31,7 +31,7 @@ const services = [
   },
   {
     title: "Content Writing",
-    desc: "High-quality, SEO-optimized content that connects with your audience and drives results.",
+    desc: "High-quality, SEO optimized content that connects with your audience and drives results.",
     icon: <ArticleIcon fontSize="large" />,
   },
   {
@@ -41,7 +41,7 @@ const services = [
   },
   {
     title: "Web Development",
-    desc: "Modern, high-performance websites designed to convert visitors into customers.",
+    desc: "Modern, high performance websites designed to convert visitors into customers.",
     icon: <CodeIcon fontSize="large" />,
   },
 ];
@@ -87,7 +87,7 @@ const Services = () => {
             mb: 8,
           }}
         >
-          We provide end-to-end digital marketing and growth solutions that help
+          We provide end to end digital marketing and growth solutions that help
           your business scale faster, generate quality leads, and build a strong
           brand in the competitive digital world.
         </Typography>
