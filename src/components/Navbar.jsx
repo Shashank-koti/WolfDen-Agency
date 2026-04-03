@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
-import Logo from "../pics/LogoWolf.png";
+import Logo from "../pics/arcMedia.png"
 
 const navItems = ["Home", "About", "Services", "Reviews", "Contact"];
 
@@ -48,26 +48,13 @@ const Navbar = () => {
           <Box
             component="img"
             src={Logo}
-            alt="WolfDen Logo"
+            alt="AMC Logo"
             sx={{
               height: 50,
               width: "auto",
               objectFit: "contain",
             }}
           />
-
-          <Typography
-            variant="h6"
-            sx={{
-              fontWeight: 700,
-              letterSpacing: 1,
-              // ml: 1.5,
-              color: "#4f8cff",
-              cursor: "pointer",
-            }}
-          >
-            WolfDen
-          </Typography>
         </Box>
 
         {/* Desktop Menu */}
@@ -151,7 +138,7 @@ const Navbar = () => {
           }}
         >
           <Typography variant="h6" sx={{ mb: 2, color: "#4f8cff" }}>
-            WolfDen
+            AMC
           </Typography>
 
           <List>

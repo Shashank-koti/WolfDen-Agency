@@ -17,9 +17,14 @@ export default function Footer() {
       url: "tel:+919701670629",
     },
     {
+      name: "85228 01254",
+      icon: <PhoneIcon sx={{ mr: 1 }} />,
+      url: "tel:+9185228 01254",
+    },
+    {
       name: "Gmail",
       icon: <MailIcon sx={{ mr: 1 }} />,
-      url: "https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsmFRzGwzVFPZtNMJsWrNchDjtvtVnSVtWgsdDtrCCZXmdhbgCnMzJcxQkHccNSbLCVznBpB",
+      url: "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXxwphsBrqvKLvSwnQsFQkzZtmJfxJbcwQcfqskQrkpqkZDfHlrvNNLzTMsDsMVGgqlmL",
     },
   ];
 
@@ -59,8 +64,9 @@ export default function Footer() {
                 textAlign: "center",
               }}
             >
-              WolfDen
+              ARC Creative Media
             </Typography>
+            
 
             <Typography
               sx={{
@@ -183,7 +189,7 @@ export default function Footer() {
               width: "100%",
             }}
           >
-            © {new Date().getFullYear()} WolfDen. All rights reserved.
+            © {new Date().getFullYear()} ACM. All rights reserved.
           </Typography>
         </Box>
       </Container>

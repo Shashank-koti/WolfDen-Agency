@@ -7,7 +7,7 @@ const testimonials = [
     name: "Abhiram",
     role: "Startup Founder",
     review:
-      "WolfDen transformed our digital presence. Their SEO and paid marketing strategy helped us generate 3x more leads in just 3 months.",
+      "ACM transformed our digital presence. Their SEO and paid marketing strategy helped us generate 3x more leads in just 3 months.",
     
   },
   {

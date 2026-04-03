@@ -75,7 +75,7 @@ const HeroSection = () => {
                 lineHeight: 1.7,
               }}
             >
-              At WolfDen, we craft high converting strategies using SEO, paid
+              At <i>ARC</i>, we craft high converting strategies using SEO, paid
               ads, social media, and growth marketing to help your brand
               dominate the digital world and generate consistent leads.
             </Typography>

@@ -35,7 +35,7 @@ const About = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            WolfDen
+            ACM
           </Box>
         </Typography>
 
@@ -48,7 +48,7 @@ const About = () => {
             mb: 8,
           }}
         >
-          WolfDen is a results driven digital marketing agency focused on
+          AMC is a results driven digital marketing agency focused on
           helping startups, brands, and businesses.
         </Typography>
 

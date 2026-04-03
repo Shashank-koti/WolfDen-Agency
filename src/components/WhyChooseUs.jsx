@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            WolfDen
+            ACM
           </Box>
         </Typography>
 
