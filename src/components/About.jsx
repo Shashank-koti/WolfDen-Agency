@@ -48,7 +48,7 @@ const About = () => {
             mb: 8,
           }}
         >
-          AMC is a results driven digital marketing agency focused on
+          ACM is a results driven digital marketing agency focused on
           helping startups, brands, and businesses.
         </Typography>
 
