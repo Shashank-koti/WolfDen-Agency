@@ -9,7 +9,7 @@ export default function Footer() {
     {
       name: "Instagram",
       icon: <InstagramIcon sx={{ mr: 1 }} />,
-      url: "https://www.instagram.com/wolfdenmarketingofficial",
+      url: "https://www.instagram.com/arc.creative.media/",
     },
     {
       name: "97016 70629",
@@ -33,7 +33,7 @@ export default function Footer() {
       sx={{
         pt: 10,
         pb: 5,
-        mt:8
+        mt: 8
         // background: "rgba(255,255,255,0.02)",
       }}
     >
@@ -66,7 +66,7 @@ export default function Footer() {
             >
               ARC Creative Media
             </Typography>
-            
+
 
             <Typography
               sx={{
